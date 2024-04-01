@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Practice Cloudinary Widgets and Players</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- BOOSTRAP NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                Cloudinary Partners
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/product.html">Product</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- INSERT VIDEO PLAYER HERE -->
+    <video id="cld-video-player"></video>
+    <!-- CARD -->
+    <div class="card text-center">
+        <div class="card-header">
+            Holiday Sale
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Special Holiday Sale</h5>
+            <p class="card-text">Bear claw marzipan lollipop sesame snaps pie gummi bears pastry bear claw. Donut
+                fruitcake chocolate bar carrot cake soufflé. Dessert cake cookie tootsie roll tiramisu cake. Bonbon
+                jelly carrot cake candy jelly-o fruitcake gummies topping bonbon.</p>
+            <a href="#" class="btn btn-primary">Get 25% Off</a>
+        </div>
+    </div>
+    <!-- SPACER -->
+    <div class="spacer-div">
+    </div>
+    <!-- CARD GRID -->
+    <div id="cards-grid" class="container text-center">
+        <div class="row align-items-start">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://res.cloudinary.com/meganamendola/image/upload/sample.jpg" class="card-img-top"
+                        alt="Flowers">
+                    <div class="card-body">
+                        <h5 class="card-title">Spring is here!</h5>
+                        <p class="card-text">Bear claw marzipan lollipop sesame snaps pie gummi bears pastry bear claw.
+                            Donut fruitcake chocolate bar carrot cake soufflé. </p>
+                        <a href="#" class="btn btn-primary">Shop new spring collection</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://res.cloudinary.com/meganamendola/image/upload/samples/woman-on-a-football-field.jpg"
+                        class="card-img-top" alt="Woman on a football field">
+                    <div class="card-body">
+                        <h5 class="card-title">You need shoes!</h5>
+                        <p class="card-text">Bear claw marzipan lollipop sesame snaps pie gummi bears pastry bear claw.
+                            Donut fruitcake chocolate bar carrot cake soufflé. </p>
+                        <a href="#" class="btn btn-primary">Shop new shoes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://res.cloudinary.com/meganamendola/image/upload/samples/man-on-a-street.jpg"
+                        class="card-img-top" alt="Man on a street">
+                    <div class="card-body">
+                        <h5 class="card-title">Business casual</h5>
+                        <p class="card-text">Bear claw marzipan lollipop sesame snaps pie gummi bears pastry bear claw.
+                            Donut fruitcake chocolate bar carrot cake soufflé. </p>
+                        <a href="#" class="btn btn-primary">Shop business casual</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CLD Video Player Files -->
+    <link href="https://unpkg.com/cloudinary-video-player@1.11.0/dist/cld-video-player.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/cloudinary-video-player@1.11.0/dist/cld-video-player.min.js"
+        type="text/javascript"></script>
+    <script src="/index_script.js"></script>
+</body>
+
+</html>
